@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" >
+    <meta name="author" content="Alejo Olivero" >
+    <meta name="description" content="pagina de venta de juegos">
+    <meta name="generator" content="sublime text">
+<link rel="stylesheet" type="text/css" href="css/cssUsuarios.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>registroUsuario</title>
+</head>
+<body  style="background-color:#27ae60">
+    <script src="js/crearPartes.js"></script>
+    <form id="form" role="form">
+     <label>Nombre:</label><br>
+    <input id="name" size="30" type="text" class="form-control" maxlength="50">
+    <br><label>Apellido:</label> <br>
+    <input id="apellido" size="30" type="text" class="form-control" maxlength="50">
+    <br><label>Password:</label><br>
+    <input id="password" size="30" inputmode="verbatim" type="text"   class="form-control"  required >
+    <br><label>Password otra vez:</label><br>
+    <input id="passwordOtra" size="30" inputmode="verbatim" type="text"   class="form-control"  required >
+    <br><label>Email:</label><br>
+    <input id="email" size="30" type="email"   class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+    <br>
+    <br>
+    <label>Sexo:</label><br>
+    <label >Hombre:</label> <input type="radio" name="radioButton" value="1" checked >
+    <br>
+    <label >Mujer:</label><input type="radio" name="radioButton" value="0">
+    <br>    
+    <br>
+<label>Activar Notificaciones:</label> <input type="checkbox" name="notificaciones" >
+<br>    
+    <br>
+
+    <input class="btn btn-primary" type="submit" id="enviar" value="Enviar">
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="js/cargarUsuarios.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
