@@ -1,0 +1,181 @@
+h1,h2,h3,li,ul,p{
+font-family:"Open Sans";
+}
+body{
+	background-color: #16a085;
+}
+section{
+
+	}
+#contenedor{
+	background-color:#6f3ce7;
+
+}
+
+img{
+	height:226px;
+	width: 250px;
+}
+#list{
+	 height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#list a{
+ padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;	
+}
+#buscador{
+
+margin-left: 50%;
+}
+h1{
+	width: 50%;
+}
+footer{
+	margin-top: 30%;
+	background-color: #ecf0f1;
+}
+#icono{
+	max-width: 32px;
+	max-height: 32px;
+	float: left;
+}
+#iniciarSesion{
+	margin-left: -1%;
+}
+#iniciar{
+	background-color: #3498db;
+	border: 5px solid white;
+margin-left: 13px;
+}
+
+header{
+	width: 100%;
+	background-color: #1abc9c;
+	margin-top: -20px;
+	
+border: 5px solid white;	
+}
+
+#categorias{
+background-color: #ecf0f1;
+border: 5px solid white;
+margin-left: 13px;
+
+}
+#cosaPasar{
+	margin-top: 10%;
+	overflow: hidden;
+	text-align: center;
+}
+#cosaPasar ul{
+	width: 300%;
+display: flex;
+animation: cambio 20s infinite alternate;
+}
+#cosaPasar li{
+	list-style: none;
+width: 100%;
+
+}
+#cosaPasar img{
+	width: 90%;
+	border: 5px solid white;
+}
+#cosaPasar h3{
+	background-color: white;
+}
+
+@keyframes cambio{
+0%{margin-left: 0;
+   
+}
+20%{margin-left: 0;
+
+}
+25%{margin-left: -100%;
+}
+45%{margin-left: -100%;
+
+}
+
+50%{margin-left: -200%;
+}
+70%{margin-left: -200%;
+}
+
+75%{margin-left: 0;
+}
+100%{margin-left: 0;
+}
+}
+#botonDesplegable{
+visibility: hidden;
+}
+
+@media screen and (max-width: 768px){
+	#iniciarSesion{
+		display: none;
+	}
+	#buscador{
+		margin-left: 40%;
+	}
+	#botonDesplegable{
+		visibility: visible;
+		
+	}
+	@keyframes cambio{
+0%{margin-left: 0;
+   
+}
+20%{margin-left: 0;
+
+}
+25%{margin-left: -105%;
+}
+45%{margin-left: -105%;
+
+}
+
+50%{margin-left: -205%;
+}
+70%{margin-left: -205%;
+}
+
+75%{margin-left: 0;
+}
+100%{margin-left: 0;
+}
+}
+}
+@media screen and (max-width: 480px){
+	h1{
+	width: 100%;
+}
+	#btnBuscar,#barraBuscar{
+		display: none;
+	}
+	#list{
+
+	}
+
+#cosaPasar img{
+	width: 70%;
+	border: 5px solid white;
+}
+}
+	}
+
+
